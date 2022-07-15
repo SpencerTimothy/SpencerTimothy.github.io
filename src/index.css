@@ -420,7 +420,7 @@ div.dark .body {
 @media screen and (max-width: 768px) {
     .profile--header {
         height: 80vh;
-        margin: 1.5rem auto;
+        margin: 0 auto;
     }
     .profile--img {
         height: 11rem;
@@ -927,7 +927,7 @@ div.light .skill-summary {
 @media screen and (max-width: 425px) {
     .blog-img-card {
         height: 13rem;
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -976,8 +976,8 @@ div.light .blog-title-card {
     background: var(--color-primary);
     border: 1px solid var(--color-light-blue);
     color: white;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     display: grid;
     place-items: center;
     font-size: 1rem;
