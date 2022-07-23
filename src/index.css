@@ -852,6 +852,7 @@ div.light .skill-summary {
     max-width: 1024px;
     text-align: center;
 }       
+
 .blog-section-title-card h2 {
     border-bottom: 3px solid var(--color-secondary);
     font-size: 3.5rem;
@@ -884,15 +885,6 @@ div.light .skill-summary {
     }
 }
 
-
-
-/* .blog-title-card span {
-    font-size: 0.85em;
-    color: var(--clr-primary-5);
-    margin-right: 1rem;
-    font-weight: 700;
-} */
-
 .blog-section-center-card {
     margin: 0 auto;
     margin-top: 4rem;
@@ -906,11 +898,10 @@ div.light .skill-summary {
     overflow: hidden;
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) {
     .blog-section-center-card {
-        /* height: auto; */
-    }
-}
+        touch-action: pan-y;    }
+} */
 
 .blog-img-card {
     border-radius: 10px;
@@ -984,6 +975,7 @@ div.light .blog-title-card {
     border-radius: 0.25rem;
     cursor: pointer;
     transition: all 0.2s linear;
+    
 }
 
 .prev-btn:hover,
