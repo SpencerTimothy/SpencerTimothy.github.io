@@ -420,7 +420,6 @@ div.dark .body {
 @media screen and (max-width: 768px) {
     .profile--header {
         height: 80vh;
-        /* margin: 1rem auto; */
         margin: 0 auto;
     }
     .profile--img {
