@@ -723,20 +723,6 @@ div.light .card--title {
     pointer-events: none;
 }
 
-/* @media screen and (min-width: 576px) {
-    .blog--posts {
-        grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
-    }
-} */
-
-/* @media screen and (min-width: 1024px) {
-    .blog--posts {
-        width: 1024;
-    }
-} */
-
-
-
 @media screen and (min-width: 1024px) {
     .blog--posts {
         display: grid;
@@ -1095,3 +1081,11 @@ footer>p {
     margin: 0 3px 4px;
 }
 
+.footer-link {
+    text-decoration: underline;
+}
+
+.footer-link:hover {
+        transition: all .3s;
+        color: var(--color-link);
+}

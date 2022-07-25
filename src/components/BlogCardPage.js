@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const ProjectsCard = (props) => {
+const BlogCardPage = (props) => {
   return (
-    <Link to={`projects/${props.item.link}`}>
-      <article data-aos="fade-up" data-aos-once="true">
+    <Link to={props.item.link}>
+      <article>
         <div className="card--article">
           <div className="card--img">
             <img
@@ -22,6 +22,6 @@ const ProjectsCard = (props) => {
       </article>
     </Link>
   );
-}
+};
 
-export default ProjectsCard
+export default BlogCardPage;

@@ -45,7 +45,7 @@ useEffect(() => {
         <NavLink to="/projects">
           <div className="small-nav-links">
             <div className="small-nav-icon">
-              {viewport && <FaLaptopCode size="1.25rem" strok-width="1px"/>}
+              {viewport && <FaLaptopCode size="1.25rem" strok-width="1px" />}
             </div>
             <span>Projects</span>
           </div>
@@ -68,10 +68,10 @@ useEffect(() => {
         </NavLink>
       </div>
       <div className="icon--wrapper">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/spencertimothy/" target="_blank">
           <FaLinkedin className="linkedIn--icon" size="2rem" />
         </a>
-        <a href="#">
+        <a href="https://github.com/SpencerTimothy" target="_blank">
           <FaGithub className="gitHub--icon" size="2rem" />
         </a>
       </div>
