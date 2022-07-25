@@ -20,9 +20,17 @@ const Footer = () => {
         </li>
       </ul>
       <p>
-        This website was made with React  <span><FaReact size="1.5rem" className="react-icon"/></span>
+        This website was made with React{" "}
+        <span>
+          <FaReact size="1.5rem" className="react-icon" />
+        </span>
       </p>
-      <p>To read how I built this website, read this blog post</p>
+      <p>
+        To read how I built this website, read &nbsp;
+        <Link to="blog/how-i-built-this" className="footer-link">
+          this blog post
+        </Link>
+      </p>
     </footer>
   );
 };
