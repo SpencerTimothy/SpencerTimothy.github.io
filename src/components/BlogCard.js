@@ -1,8 +1,11 @@
 import React, {useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
-import data from "../data"
+import data from "../blogData"
 
 const BlogCard = () => {
+
+    // const link = "blog/how-i-built-this"
     const [posts] = useState(data)
     const [index, setIndex] = useState(0)
     
@@ -67,7 +70,7 @@ const BlogCard = () => {
           onTouchMove={handleTouchMove}
         >
           {posts.map((post, postIndex) => {
-            const { id, img, alt, title, description } = post;
+            const { id, link, img, alt, title, description } = post;
             let position = "nextSlide blog-article-card";
             if (postIndex === index) {
               position = "activeSlide blog-article-card";
@@ -80,9 +83,11 @@ const BlogCard = () => {
             }
             return (
               <article className={position} key={id}>
-                <img src={img} alt={alt} className="blog-img-card" />
-                <h3 className="blog-title-card">{title}</h3>
-                <p className="blog-description-card">{description}</p>
+                <Link to={`blog/${link}`}>
+                  <img src={img} alt={alt} className="blog-img-card" />
+                  <h3 className="blog-title-card">{title}</h3>
+                  <p className="blog-description-card">{description}</p>
+                </Link>
               </article>
             );
           })}
