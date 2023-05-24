@@ -1,13 +1,134 @@
-body {
+/* General styles */
+
+*,
+::before,
+::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-secondary: #bf1650;
+  --color-light-pink: #ec5990;
+  --color-primary: #0e101c;
+  --color-blue: #1e2a4a;
+  --color-button-blue: #191d3a;
+  --color-light-blue: #516391;
+  --color-link: #ff7aa8;
+  --color-medium-blue: #4f6294;
+  --color-black: #2d2d2d;
+  --color-purple: #0f111b;
+  --color-grey: #333;
+  --color-light-grey: #ccc;
 }
+
+body {
+  display: block;
+  word-wrap: break-word;
+  background-color: #081229;
+  color: #fff;
+  font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: .625rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-medium-blue);
+  border-radius: .625rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-button-blue);
+  border-radius: .625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-light-pink);
+}
+
+.light::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+.light::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 10px;
+}
+
+.light::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+div.light {
+  /* background-color: white; */
+  background-color: whitesmoke;
+  color: black;
+  animation-name: flipLight;
+  animation-duration: 1.5s;
+}
+
+.light p {
+  color: black;
+}
+
+@keyframes flipLight {
+  from {
+    color: white;
+  }
+
+  to {
+    color: black;
+  }
+}
+
+div.dark .body {
+  animation-name: flipDark;
+  animation-duration: 1.5s;
+}
+
+@keyframes flipDark {
+  from {
+    color: black;
+  }
+
+  to {
+    color: white
+  }
+}
+
+/* Navigation Menu */
+
+/* End navBar css */
+
+/* Home page css*/
+
+/* End home page css */
+
+/* Home page buttons css */
+
+/* End home page buttons css */
+
+/* Start project cards */
+
+/* End home page css */
+
+/* Start ProjectsCard css */
+
+/* End ProjectsCard css */
+
+/* Start Features css */
+
+/* End Features css */
+
+/* Start BlogCard css */
+
+/* End BlogCard css */
+
+/* Start Footer css */
+
+/* End Footer css */
