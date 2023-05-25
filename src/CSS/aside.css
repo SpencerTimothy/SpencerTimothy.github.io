@@ -1,0 +1,82 @@
+.side-menu {
+    position: fixed;
+    top: 30%;
+    padding-left: 2rem;
+    width: 20rem;
+    height: 100%;
+    margin: auto;
+}
+
+.side-menu h4 {
+    margin: 0 auto 1rem;
+    display: block;
+    font-size: 1.25rem;
+    color: var(--color-light-blue);
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.side-menu h4:before {
+    margin-right: 0.5em;
+    /* right: 0.5em; */
+    background-color: var(--color-light-blue);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    overflow: hidden;
+}
+
+.side-menu h4:after {
+    box-sizing: border-box;
+    /* left: 0.5em; */
+    margin-left: 0.5em;
+    background-color: var(--color-light-blue);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    overflow: hidden;
+}
+
+.side-menu > ul{
+    list-style-type: none;
+    font-weight: 400;
+    margin: 1rem auto;
+}
+
+.light .side-menu a {
+    color: black;
+}
+
+.light .side-menu a:hover {
+    color: var(--color-secondary);
+}
+
+.side-menu code {
+    color: var(--color-light-pink);
+}
+
+.side-menu li {
+    margin: .75rem 0;
+}
+
+.side-menu li>a:hover {
+    color: var(--color-link);
+    transition: all .3s;
+}
+
+.side-menu li>a.active {
+    border-bottom: 1px solid var(--color-secondary);
+    padding-bottom: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .side-menu {
+        display: none;
+    }
+}
