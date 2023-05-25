@@ -1,0 +1,27 @@
+.only-resume-button {
+    background: var(--color-primary);
+    border: 1px solid var(--color-light-blue);
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    display: grid;
+    /* display: block; */
+    /* margin: 5rem auto 2rem auto; */
+    margin: 4rem auto 2rem;
+    /* margin: auto; */
+    padding: 16px 10px;
+    transform: scale(1, 1.1);
+}
+
+@media screen and (max-width: 1024px) {
+    .only-resume-button {
+        margin: 3.5rem auto .5rem;
+        line-height: 1;
+        font-size: 12px;
+    }
+}
