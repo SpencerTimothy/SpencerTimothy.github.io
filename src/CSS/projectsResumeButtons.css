@@ -1,0 +1,108 @@
+.button-div {
+    grid-column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+}
+
+.projects-btn,
+.resume-btn {
+    background: var(--color-primary);
+    border: 1px solid var(--color-light-blue);
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin: .5rem 0;
+    padding: 16px 10px;
+    transform: scale(1, 1.1);
+}
+
+.button-animate .projects-btn-animate {
+    animation-name: btn-left;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    position: relative;
+}
+
+.button-animate .resume-btn-animate {
+    animation-name: btn-right;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    position: relative
+}
+
+@keyframes btn-left {
+    0% {
+        opacity: 0;
+        left: -25%;
+    }
+
+    75% {
+        opacity: 0;
+        left: -25%;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes btn-right {
+    0% {
+        opacity: 0;
+        left: 25%;
+    }
+
+    75% {
+        opacity: 0;
+        left: 25%;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+.resume-btn:hover,
+.projects-btn:hover {
+    border: 1px solid var(--color-secondary);
+    transition: all .3s;
+}
+
+.projects-btn:active,
+.resume-btn:active {
+    transform: translate(-2px, 2px);
+}
+
+@media screen and (min-width: 1025px) {
+    .button-div {
+        margin: 1rem auto;
+        grid-column-gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        width: 24rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .resume-btn,
+    .projects-btn {
+        line-height: 1;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .resume-btn,
+    .projects-btn {
+        line-height: .5;
+        letter-spacing: 1px;
+    }
+}
