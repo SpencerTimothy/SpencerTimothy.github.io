@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+    .features-box {
+        margin: auto 1rem;
+    }
+    .features {
+        display: grid;
+        grid-column-gap: 60px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px auto 30px;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+.features-box {
+    width: 80%;
+    max-width: 1480px;
+    margin: auto;
+}
+
+    .features {
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: repeat(6, 1fr);
+        margin: 40px auto 30px;
+        max-width: 1440px;
+    }
+}
+
+.features>article {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+div.light .skill-summary {
+    color: var(--color-black)
+}
