@@ -320,7 +320,7 @@ const USCensusData = () => {
         income and changes in population.
       </p>
       <img
-        src="../photos/project_photos/USCensusData/Full Screen.png"
+        src="../photos/project_photos/USCensusData/Census Full Screen.png"
         alt="How to view in full screen"
       />
       <figcaption>
