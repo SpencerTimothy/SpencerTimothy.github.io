@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/ProjectsResumeButtons.css'
+import '../CSS/projectsResumeButtons.css'
 import { useNavigate } from "react-router-dom";
 
 
