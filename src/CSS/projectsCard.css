@@ -1,0 +1,128 @@
+.project-card-div {
+    margin: 3rem auto;
+}
+
+.card-heading {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 2rem auto 0;
+}
+
+.light .card-subheading,
+.card-subheading {
+    color: var(--color-light-pink);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: auto;
+    /* width: 75%; */
+    text-align: center;
+}
+
+.card--img {
+    height: 15rem;
+    position: relative;
+    overflow: hiden;
+}
+
+.card--img>img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.card--article {
+    margin: 1rem;
+    margin-top: 2rem;
+    border: 1px solid var(--color-light-blue);
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+.card--article h3 {
+    background: var(--color-button-blue);
+    border-bottom: 1px solid var(--color-light-blue);
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 13px 20px;
+    text-shadow: 2px 2px #000
+}
+
+div.light .card--title {
+    background-color: var(--color-light-grey);
+    text-shadow: none;
+    color: black
+}
+
+.card--article p {
+    margin: 20px;
+    height: 110px;
+}
+
+.card--article a {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: var(--color-link);
+    padding: 12px 20px 12px 80px;
+}
+
+.card--article:hover {
+    border: 1px solid var(--color-secondary);
+    box-shadow: 5px 5px black;
+    transform: translate(-2px, -2px);
+    transition: all .3s;
+}
+
+.card--article:hover a {
+    color: var(--color-secondary);
+}
+
+.card--article>a {
+    pointer-events: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .card-heading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .blog--posts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .card-subheading {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card-heading {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .blog--posts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        max-width: 1480px;
+    }
+}
+
