@@ -1,0 +1,77 @@
+.footer {
+    font-size: .8rem;
+    font-weight: 400;
+    padding: 40px 0 100px;
+    text-align: center;
+    bottom: 0;
+}
+
+.footer-links {
+    border-bottom: 1px solid var(--color-light-pink);
+    display: block;
+    margin: 0 auto 20px;
+    /* max-width: 800px; */
+    max-width: 38%;
+    padding: 0 0 10px;
+}
+
+.footer-links>li {
+    display: inline-flex;
+    padding: 0 25px 0;
+}
+
+.footer-links>li>a {
+    color: #fff;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 10px 12px;
+    justify-content: space-around;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: transform(-2px, 2px);
+}
+
+.footer-links>li>a:hover {
+    color: var(--color-link);
+    transition: all .3s;
+}
+
+div.light .footer-links>li>a {
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+div.light .footer-links>li>a:hover {
+    color: var(--color-link);
+    transition: all .3s;
+    transition: transform(-2px, 2px);
+}
+
+footer>p {
+    line-height: 2.5;
+}
+
+.react-icon {
+    vertical-align: middle;
+    margin: 0 3px 4px;
+}
+
+.footer-link {
+    text-decoration: underline;
+}
+
+.footer-link:hover {
+    transition: all .3s;
+    color: var(--color-link);
+}
+
+div.light .footer-link {
+    color: black;
+}
+
+div.light .footer-link:hover {
+    transition: all .3s;
+    color: var(--color-link);
+}
