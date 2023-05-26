@@ -4,7 +4,7 @@ import { ProjectsResumeButtons } from "./ProjectsResumeButtons";
 
 const About = () => {
   return (
-    <div style={{ margin: "3rem auto", width: "60rem" }} className="writings">
+    <div style={{ margin: "3rem auto", maxWidth: "60rem" }} className="writings">
       <h1>About Me</h1>
       <p>Want to know more about me? Glad you asked...</p>
       <p>
