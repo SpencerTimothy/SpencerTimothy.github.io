@@ -15,7 +15,7 @@ const data = [
     alt: "alt img 2",
     title: "What's Next For Me?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo natus molestiae assumenda aspernatur expedita, voluptatem quam. Eligendi, autem voluptas!",
+      "My plans to learn fullstack development, interactive charting libraries, machine learning, and Django to create web-based apps for data analysis, visualization, and prediction.",
   },
   // {
   //   id: 3,
