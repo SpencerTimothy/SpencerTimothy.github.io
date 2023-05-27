@@ -15,7 +15,7 @@ const data = [
     alt: "alt img 2",
     title: "What's Next For Me?",
     description:
-      "My plans to learn fullstack development, interactive charting libraries, machine learning, and Django to create web-based apps for data analysis, visualization, and prediction.",
+      "My plans to learn fullstack development, interactive charting libraries, machine learning, and Django to create web-based apps for data analysis, visualizations, and predictions.",
   },
   // {
   //   id: 3,
