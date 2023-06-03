@@ -27,7 +27,7 @@ const ResumeText = React.forwardRef((props, ref) => {
                 href="https://wa.me/34625017274?text=Hello%2C%20we%27re%20interested%20in%20your%20resume%21"
                 target="_blank"
               >
-                +34 625 01 72 74
+                +34 625 017 274
               </a>
             </li>
             <li>
@@ -129,7 +129,7 @@ const ResumeText = React.forwardRef((props, ref) => {
           </li>
         </ul>
         <b>VIPKid/Gogokid:</b>
-        <time>Mar. 2020 - Oct. 2021</time>
+        <time>Mar. 2021 - Oct. 2022</time>
         <p>Remote ESL Teacher</p>
         <ul>
           <li>
