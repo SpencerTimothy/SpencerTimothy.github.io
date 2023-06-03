@@ -8,9 +8,9 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiInternetexplorer } from "react-icons/si";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-const ResumeText = React.forwardRef((props, ref) => {
+const ResumeText = () => {
   return (
-    <div ref={ref} className="my-resume">
+    <div className="my-resume">
       <div className="name-contact">
         <h1>Spencer Timothy</h1>
         <h3>Data Analyst</h3>
@@ -159,6 +159,6 @@ const ResumeText = React.forwardRef((props, ref) => {
       </div>
     </div>
   );
-});
+};
 
 export default ResumeText;

@@ -3,6 +3,16 @@ a.download {
     display: contents;
 }
 
+.my-resume a:hover {
+    color: var(--color-secondary);
+    transition: all .3s;
+}
+
+div.light .my-resume a:hover {
+    color: var(--color-secondary);
+    transition: all .3s;
+}
+
 .print-resume {
     background: var(--color-primary);
     border: 1px solid var(--color-light-blue);
@@ -165,6 +175,10 @@ time {
 .projects>b,
 .projects>p {
     padding: 0 .25rem;
+}
+
+.projects>p {
+    margin: 0 0 .5rem 0;
 }
 
 .relavent-skills>div {
