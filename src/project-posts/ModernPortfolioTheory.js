@@ -19,9 +19,9 @@ const ModernPortfolioTheory = () => {
         </figcaption>
         <p style={{ fontWeight: "500", textAlign: "center" }}>
           <i>
-            To view the code for this project on GitHub, please visit this{" "}
+            To view the code for this project, please visit this{" "}
             <a
-              href="https://github.com/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb"
+              href="https://nbviewer.org/github/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb"
               target="_blank"
             >
               link
@@ -170,6 +170,15 @@ const ModernPortfolioTheory = () => {
           optimal portfolio on the efficient frontier.
         </p>
         <h2>Price Changes</h2>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb#price-changes"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           To visualize the price changes for the ETFs in this project, we will
           use Pandas and Matplotlib to chart all of the adjusted closing prices.
@@ -215,6 +224,15 @@ const ModernPortfolioTheory = () => {
           bond rate has been raising rapidly, from around 1.45% to 3.36%.
         </p>
         <h2>Price Correlation</h2>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb#price-correlation"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           Our next step in this project will be to analyze the correlation of
           each of the ETFs in relation to eachother. We will be working with
@@ -256,6 +274,15 @@ const ModernPortfolioTheory = () => {
           securities have been declining.
         </p>
         <h2>Markowitz Bullet</h2>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb#markowitz-bullet"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           The next step is to generate a graph called the Markowitz Bullet. This
           graph illustrates the risk and return levels of various investment
@@ -289,6 +316,15 @@ const ModernPortfolioTheory = () => {
           among all the randomly selected portfolio options.
         </p>
         <h2>Asset Allocation</h2>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb#asset-allocation"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           To construct an optimal investment strategy, it is valuable to
           visualize the asset allocation of each portfolio. By using pie charts,
@@ -405,9 +441,9 @@ const ModernPortfolioTheory = () => {
         </p>
         <p style={{ fontWeight: "500", textAlign: "center" }}>
           <i>
-            To view the code for this project on GitHub, please visit this{" "}
+            To view the code for this project, please visit this{" "}
             <a
-              href="https://github.com/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb"
+              href="https://nbviewer.org/github/SpencerTimothy/Modern-Portfolio-Theory-Portfolio-Analysis-/blob/main/MPT%20Project.ipynb"
               target="_blank"
             >
               link

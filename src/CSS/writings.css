@@ -52,6 +52,44 @@
     margin: 1rem .5rem 0;
 }
 
+.writings> span code {
+    color: var(--color-link);
+    /* font-size: 1rem; */
+    padding-right: .2rem;
+    /* font-weight: bold; */
+}
+
+.writings>span {
+    /* height: 1.6rem; */
+    border-radius: .25rem;
+    color: #fff;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-light-blue);
+    cursor: pointer;
+    padding: 0 .5rem .2rem;
+    margin: .5rem auto -.5rem;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.writings>span>a {
+    color: #fff;
+}
+
+.writings>span:hover {
+    color: #fff;
+    border: 1px solid var(--color-secondary);
+    transition: all .3s;
+}
+
+.writings>span>a:hover {
+    color: #fff;
+}
+
+.writings>span:active {
+    transform: translate(-2px, 2px);
+}
+
 .writings>p {
     text-align: left;
     font-size: 1.1rem;

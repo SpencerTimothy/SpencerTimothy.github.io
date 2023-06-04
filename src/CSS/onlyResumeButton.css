@@ -18,6 +18,15 @@
     transform: scale(1, 1.1);
 }
 
+.only-resume-button:hover {
+    border: 1px solid var(--color-secondary);
+    transition: all .3s;
+}
+
+.only-resume-button:active {
+    transform: translate(-2px, 2px);
+}
+
 @media screen and (max-width: 1024px) {
     .only-resume-button {
         margin: 3.5rem auto .5rem;

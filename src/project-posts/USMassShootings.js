@@ -70,6 +70,15 @@ const USMassShootings = () => {
           trends of mass shootings.
         </p>
         <h2>Analysis</h2>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Mass-Shootings-in-the-United-States/blob/main/U.S.%20Mass%20Shootings.ipynb#sectionI"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           In this study, we will utilize several Python libraries, including
           Pandas for data analysis, Seaborn for creating visualizations, and
@@ -101,19 +110,16 @@ const USMassShootings = () => {
           introduce some degree of uncertainty, it allowed for a more
           comprehensive analysis of the data available.
         </p>
-        <p>
-          For readers interested in the data cleaning and analysis methodology,
-          it is recommended to refer to this{" "}
+        <h3>Mean Age of Shooter</h3>
+        <span>
           <a
             href="https://nbviewer.org/github/SpencerTimothy/Mass-Shootings-in-the-United-States/blob/main/U.S.%20Mass%20Shootings.ipynb#sectionII"
             target="_blank"
           >
-            GitHub repository
+            <code>{"</>"}</code>
+            <i>View Code</i>
           </a>
-          , which provides clear and organized documentation of the code and
-          methodology employed.
-        </p>
-        <h3>Mean Age of Shooter</h3>
+        </span>
         <p>
           The distribution of ages among shooters in the mass shooting dataset
           from 1982 to 2022 was analyzed to gain a better understanding of the
@@ -134,6 +140,15 @@ const USMassShootings = () => {
           with a mean age of 33.61 years.
         </p>
         <h3>Total Victims per Year</h3>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Mass-Shootings-in-the-United-States/blob/main/U.S.%20Mass%20Shootings.ipynb#total-victims-per-year"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           To visualize the data, a bar chart was created showing how many deaths
           were recorded for each incident per year. The graph shows the total
@@ -158,6 +173,15 @@ const USMassShootings = () => {
           recorded mass shootings, such as 1983, 1985, and 2002.
         </p>
         <h3>Number of Shootings per Location by Year</h3>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Mass-Shootings-in-the-United-States/blob/main/U.S.%20Mass%20Shootings.ipynb#number-of-shootings-per-location-by-year"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           A chart was created to show the number of mass shootings per year and
           their location type. The graph also includes a KDE (kernel density
@@ -201,6 +225,15 @@ const USMassShootings = () => {
           totaling 52 incidents.
         </p>
         <h3>Prior Signs of Mental Health Issues</h3>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Mass-Shootings-in-the-United-States/blob/main/U.S.%20Mass%20Shootings.ipynb#prior-signs-of-mental-health-issues"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           The following chart includes some values that were originally labeled
           as "Unclear" and "-". These labels were changed to "Unknown" during
@@ -228,6 +261,15 @@ const USMassShootings = () => {
           mass shootings
         </p>
         <h3>Most Common Weapon Type</h3>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Mass-Shootings-in-the-United-States/blob/main/U.S.%20Mass%20Shootings.ipynb#most-common-weapon-type"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           The following chart summarizes the weapon types used in mass
           shootings, after cleaning and simplifying the original data. The
@@ -261,6 +303,15 @@ const USMassShootings = () => {
           type of weapon used in each case.
         </p>
         <h2>Visualizing Mass Shootings</h2>
+        <span>
+          <a
+            href="https://nbviewer.org/github/SpencerTimothy/Mass-Shootings-in-the-United-States/blob/main/U.S.%20Mass%20Shootings.ipynb#sectionIII"
+            target="_blank"
+          >
+            <code>{"</>"}</code>
+            <i>View Code</i>
+          </a>
+        </span>
         <p>
           To visually represent the data on mass shootings in the United States,
           an interactive geospatial library called Pydeck was used to create a
@@ -282,9 +333,7 @@ const USMassShootings = () => {
           As you move your mouse over each column, a tooltip will appear with
           detailed information about the shooting. This includes the city and
           state where the incident occurred, the date it took place, and the
-          total number of victims. This information provides a deeper
-          understanding of the impact of these tragic events on communities
-          across the United States.
+          total number of victims.
         </p>
         <p>To interact with this map, the following actions are available:</p>
         <ul>
