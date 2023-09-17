@@ -79,7 +79,7 @@ div.light .map-icon {
     padding: 1.5rem 1rem;
     /* padding: auto; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60% auto auto;
     position: relative;
 }
 
@@ -116,7 +116,6 @@ b {
 .name{
     /* left: 0; */
     text-align: center;
-
 }
 
 .contact {
@@ -363,78 +362,3 @@ time {
     }
 }
 
-@media print {
-
-    @page {
-        margin: 0;
-    }
-
-    header {
-        display: none;
-    }
-
-    nav {
-        display: none;
-    }
-
-    button {
-        display: none;
-    }
-
-    footer {
-        display: none;
-    }
-
-    .my-resume {
-        width: auto;
-        /* max-width: 100%; */
-        color: black;
-        margin: .5cm;
-        font-size: 10pt;
-        background-color: white;
-        box-shadow: none;
-        border-radius: none;
-    }
-
-    .contact{
-        padding-top: 4pt;
-    }
-
-    .name-contact h3 {
-        padding: 0 0 2pt 114pt;
-    }
-
-    .contact>ul {
-        line-height: 22pt;
-        padding-top: 0;
-    }
-
-    .my-resume h4,
-    .education>h2,
-    .projects>h2,
-    .relavent-skills>h2,
-    .work-experience>h2,
-    b {
-        color: black
-    }
-
-    .my-resume h1 {
-        font-size: 42pt;
-    }
-
-    .name-contact {
-        background-color: var(--color-light-grey);
-        border-top: 5px solid var(--color-light-blue);
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
-
-    .resume-icons,
-    .map-icon {
-        color: var(--color-button-blue);
-    }
-
-    li>b {
-        color: black;
-    }
-}
